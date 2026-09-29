@@ -1,19 +1,20 @@
-/******************************************************************************
+//Q17: Write a program to find the roots of a quadratic equation and categorize them.
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
 
-*******************************************************************************/
 #include <stdio.h>
 
 int main()
 {
-    int q,x;
+    int q,x,a,b,c;
+    printf("Enter the value of a: ");
+    scanf("%d", &a);
+    printf("Enter the value of b :");
+    scanf("%d", &b);
+    printf("Enter the value of c :");
+    scanf("%d", &c);
     printf("Input value of x :");
     scanf("%d", &x);
-    q= (x*x)-(5*x)+6;
+    q= a*(x*x)-(b*x)+c;
     if(q==0){
         printf("%d is root of equation", x);
     }
@@ -23,3 +24,4 @@ int main()
 
     return 0;
 }
+
