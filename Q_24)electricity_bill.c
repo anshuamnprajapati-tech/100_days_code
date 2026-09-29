@@ -1,11 +1,9 @@
-/******************************************************************************
+//Q24: Write a program to calculate electricity bill based on units consumed with these rates: 
+First 100 units at ₹5/unit 
+Next 100 units at ₹7/unit 
+Next 100 units at ₹10/unit 
+Above at ₹12/unit
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <stdio.h>
 
 int main()
