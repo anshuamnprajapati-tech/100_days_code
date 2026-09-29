@@ -1,11 +1,9 @@
-/******************************************************************************
+//Q23: Write a program to calculate library fine based on late days as follows: 
+First 5 days late: ₹2/day 
+Next 5 days late: ₹4/day 
+Next 20 days days late: ₹6/day 
+More than 30 days: Membership Cancelled.
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <stdio.h>
 
 int main()
