@@ -6,11 +6,9 @@
 int main()
 {
     int count=0;
-    char str[99]="Hello World!";
-    for(int i=0; i<99; i++){
-        if(str[i]=='\0'){
-            break;
-        }
+    char str[100];
+    fgets(str, 100, stdin);
+    for(int i=0; str[i]!='\0'; i++){
         count++;
     }
     printf("Number of character in a string is %d",count);
